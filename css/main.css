@@ -1,0 +1,67 @@
+body {
+    margin: 0;padding: 0;
+    background:lightblue;
+    display: flex;
+    justify-content: center;
+}
+.form-container {
+    border-radius: 10px;
+    width: 20%;
+    margin-top: 5%;
+    background:pink;
+}
+
+.form-group {
+    padding: 10px;
+}
+.form-control {
+    
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.two-input {
+    display: flex;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button {
+    padding: 7.5px 15px;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background: teal;
+
+
+}
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.fa-user {
+    color: teal;
+}
+.user-logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    padding: 10px;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-control:hover{
+    border: 2px solid lightblue;
+}
